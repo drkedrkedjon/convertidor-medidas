@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(223, 234, 226);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  border: 5px solid white;
+  border-radius: 16px;
+  box-shadow: 0 0 30px 5px rgba(100, 69, 245, 0.2);
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 2rem 4rem;
+  background-color: rgb(100, 69, 245);
+  color: white;
+}
+
+header > input {
+  font-size: 3.5rem;
+  padding: 0.5rem;
+  width: 11rem;
+  text-align: center;
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 1rem 2.4rem;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
+.resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(245, 244, 244);
+}
+.resultados > *:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.tarjeta {
+  padding: 1.5rem;
+  background-color: white;
+}
+.tarjeta > h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
